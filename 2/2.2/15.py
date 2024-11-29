@@ -1,7 +1,0 @@
-a = input()
-b = input()
-a = list(map(int, ''.join(a + b)))
-a.sort()
-print(f'{a[3]}', end='')
-print(f'{(a[1] + a[2]) % 10}', end='')
-print(f'{a[0]}', end='')
