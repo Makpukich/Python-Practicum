@@ -1,6 +1,0 @@
-N = int(input())
-M = int(input())
-K1 = int(input())
-K2 = int(input())
-m2 = int((N * (M - K1)) / (K2 - K1))
-print(N - m2, m2)
